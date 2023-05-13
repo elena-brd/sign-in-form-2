@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #292929;
+    background: linear-gradient(90deg, rgba(115, 178, 220, 1), rgb(67, 107, 134));
+}
+
+#card {
+    background: #fff;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    margin: 5rem auto;
+    border-radius: 10px;
+    box-shadow: 10px 5px 15px 0px rgb(75, 115, 142);
+    padding: 2rem 0;
+}
+
+#card .sign-in-title h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-top: 5rem;
+}
+
+#card .account-form-sign-in {
+    width: 300px;
+}
+
+#card .card-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+#card .form-group label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+#card .form-group {
+    margin: 1rem 0;
+}
+
+#card .form-group input {
+    width: 100%;
+    margin-top: 0.3rem;
+    padding: 0.5rem 0;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding-left: 0.5rem;
+}
+
+#card .form-group input:focus {
+    outline: none;
+    border: 2px solid #4489b6;
+}
+
+#card .check-input {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+#card .check-input {
+    font-weight: 600;
+}
+
+#card .btn-password {
+    font-weight: 500;
+    color: #4489b6;
+    font-style: italic;
+}
+
+#card .btn-sign-in {
+    margin: 1rem 0;
+    display: inline-block;
+    width: 100%;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    border: none;
+    background: #c9c9c9;
+    color: #fff;
+    border-radius: 3px;
+    transition: all 0.3s ease-out;
+}
+
+#card .btn-sign-in:hover {
+    background: #4489b6;
+}
+
+#card .sign-up-text {
+    color: #777;
+    font-size: 0.8rem;
+}
+
+#card .btn-sign-up {
+    color: #4489b6;
+    font-weight: 500;
+}
+
+#main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#main-footer a {
+    padding-right: 2rem;
+    font-size: 0.8rem;
+    color: #4489b6;
+    font-weight: 500;
+}
+
+#main-footer a:hover,
+#card .btn-sign-up:hover,
+#card .btn-password:hover {
+    color: #777;
+}
